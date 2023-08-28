@@ -2,7 +2,7 @@ import requests
 import json
 import pandas as pd
 
-api_key = 'AIzaSyBNs2rWzil8Q0FDiTAW6_IopgQmhh7TLBc'
+api_key = 'API KEY'
 video_id = 'hQx3I__MFJs&t=3s'
 
 url = f'https://www.googleapis.com/youtube/v3/commentThreads?part=snippet,id&videoId={video_id}&key={api_key}&order=relevance&maxResults=100'
